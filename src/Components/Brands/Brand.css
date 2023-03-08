@@ -1,0 +1,31 @@
+.brands{
+    padding: 3rem 0;
+}
+.brands_single_demo{
+    border-left: 10px solid black;
+    margin: 10px;
+}
+.demo_title{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.brands_list{
+    columns: 3 !important;
+}
+.brands_list_items{
+    list-style-type: none;
+    margin-left: 20px;
+    color: #333;
+}
+.brands_wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media screen and (max-width:888px) {
+    .brands_list{
+        columns: 2 !important;
+    }
+    .brands_wrapper{
+        grid-template-columns:auto;
+    }
+}

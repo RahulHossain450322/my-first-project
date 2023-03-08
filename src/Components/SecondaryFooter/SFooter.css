@@ -1,0 +1,143 @@
+.SFooter{
+    background-color: #1D2A38;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.images_1_part{
+   max-width: 300px;
+   margin: auto;
+}
+.photos{
+    max-width: 100%;
+}
+.SFooter_content_photos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    
+}
+@media screen and (max-width:1365.33px) {
+    .SFooter_content_photos{
+        grid-template-columns: auto auto auto;
+    }
+    .images_1_part{
+        max-width: 140px;
+        margin: auto;
+     }
+     .photos{
+         max-width: 100%;
+     }
+}
+@media screen and (max-width:682.67px) {
+    .SFooter_content_photos{
+        grid-template-columns: auto auto;
+    }
+    .images_1_part{
+        max-width: 100px;
+        margin: auto;
+     }
+     .photos{
+         max-width: 100%;
+     }
+}
+.others_title{
+    color: white;
+    margin: 20px 0;
+}
+.SFLink{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(189, 195, 199);
+}
+.others_content{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap:0rem 4rem;
+    padding-top: 2rem;
+    
+}
+.unLine{
+    text-decoration: underline;
+}
+.logo_all{
+    color: rgb(189, 195, 199);
+}
+.logo_all:nth-child(2){
+    color: rgb(189, 195, 199);
+    margin: 13px;
+}
+.logo_others{
+    margin-bottom: 10px;
+}
+.para_others{
+    color:rgb(189, 195, 199);
+}
+.right{
+    text-align: right;
+}
+.emailInput{
+    max-width: 150px;
+    padding: 5px 15px;
+    outline: none;
+    background-color: #1D2A38;
+    border:1px solid rgb(189, 195, 199);
+}
+.emailBtn{
+    padding: 5px 10px;
+    background-color: rgb(189, 195, 199);
+    color: black;
+    border: 1px solid rgb(189, 195, 199);
+}
+@media screen and (max-width:930.91px) {
+    .others_content{
+        grid-template-columns: auto auto;
+        grid-gap: 2rem 0rem;
+    }
+    .right{
+        text-align: left;
+    }
+    .emailInput{
+        max-width: 350px;
+    }
+    .form{
+        display: flex;
+        justify-content: left;
+    }
+}
+@media screen and (max-width:1000.50px) {
+    .others_content{
+        grid-gap: 0rem 2rem;
+        padding: 0rem 4rem;
+    }
+    .form{
+        display: flex;
+        justify-content: left;
+
+    }
+}
+@media screen and (max-width:667.91px) {
+    .form{
+        display: flex;
+        justify-content: left;
+    }
+    .others_content{
+        grid-template-columns: auto;
+        grid-gap: 2rem 0rem;
+    }
+}
+@media screen and (max-width:889.91px) {
+    .form{
+        display: flex;
+        justify-content: left;
+    }
+}
+@media screen and (max-width:1024.91px) {
+    .emailInput{
+        max-width: 100px;
+        padding: 5px 15px;
+    }
+    .emailBtn{
+        padding: 5px 4px;
+    }
+}

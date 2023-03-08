@@ -1,0 +1,27 @@
+.main{
+    display: block;
+}
+.menu-list{
+    margin: 12px 0;
+}
+.menu-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+    margin: 0 10px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item{
+    list-style-type: none;
+}
+
+@media screen and (max-width:682.20px) {
+    .main{
+        display: none;
+    }
+}

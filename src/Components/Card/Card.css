@@ -1,0 +1,27 @@
+.card{
+    margin-top: -60px;
+    display: none;
+}
+.card-content{
+    display: flex;
+    border:1px solid gray;
+    background-color: white;
+}
+.single-card{
+    padding: 1.3rem;
+    text-align: center;
+}
+.card-title{
+    margin: 8px 0;
+}
+.card-des{
+    font-size: 12px;
+}
+.here{
+    text-decoration: none;
+}
+@media screen and (min-width:650px) {
+    .card{
+        display: block;
+    }
+}

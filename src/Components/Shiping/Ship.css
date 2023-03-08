@@ -1,0 +1,40 @@
+.shiping{
+    background-color: #222;
+    color: white;
+    padding: 2rem 0;
+}
+.free-ship{
+    text-align: center;
+}
+.ship-title{
+    color: #09dfbb;
+}
+.ship-des{
+    margin: 20px 0;
+    color: rgb(189, 195, 199);
+}
+.country-list{
+    columns: 2 !important;
+    color: rgb(189, 195, 199);
+}
+.list-name{
+    list-style-type: none;
+}
+.shipping-control{
+    display: flex;
+}
+.ship-map{
+   max-width: 600px;
+    margin: auto 20px;
+}
+.ship-map img{
+    width: 100%;
+}
+@media screen and (max-width:750px) {
+    .shipping-control{
+        flex-direction: column;
+    }
+    .list-name{
+        margin-left: 30px;
+    }
+}

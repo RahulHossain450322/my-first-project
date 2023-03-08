@@ -1,0 +1,129 @@
+.home{
+    padding: 4rem 0;
+}
+.techLineThrouh{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.single-tech-card{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition:border .9s;
+    cursor: pointer;
+}
+.viewDetails{
+    width: 140px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+    display:none ;
+
+    position: absolute;
+
+    transform: translate(-50%,-50%);
+    top: 100%;
+    left: 50%;
+
+}
+.single-tech-card:hover .viewDetails{
+    display: block;
+}
+.home-product-image{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    position:relative;
+}
+.home-product-image img{
+    width: 100%;
+}
+.tech-link{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+.tech-info{
+    font-size: 16px;
+    margin: 8px 0;
+}
+.price-section{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.price-btn{
+    padding: 3px 10px;
+    background-color: red;
+    color: white;
+    border:none;
+    margin-right:14px;
+    cursor: pointer;
+}
+.price{
+    color: red;
+    font-weight: bolder;
+}
+
+.homeTech_details{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.home-content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.home-image{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.home-tech{
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width:1150px) {
+    .home-image{
+        display: none;
+    }
+    .viewDetails{
+        transform: translate(-50%,-50%);
+        top: 100%;
+        left: 50%;
+    }
+
+}
+@media screen and (min-width:1200px) {
+    .home-image{
+        width: 70%;
+        max-height: 820px;
+    }
+    .home-image img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:586px) {
+    .homeTech_details{
+        grid-template-columns: auto auto ;
+    }
+    .viewDetails{
+        transform: translate(-50%,-50%);
+        top: 100%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .homeTech_details{
+        grid-template-columns: auto ;
+    }
+    .viewDetails{
+        transform: translate(-50%,-50%);
+        top: 100%;
+        left: 50%;
+    }
+}
